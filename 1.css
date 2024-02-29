@@ -1,0 +1,101 @@
+body {
+    background-color: #DCF2F1;
+    color: #FBA834;
+    margin: 0;
+    font-family: 'Space Grotesk';font-size: 22px;
+}
+
+.navbar {
+    background-color: #7BD3EA;
+    border-bottom: 3px solid #DCF2F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-bar a:hover {
+    color: #FBA834;
+}
+
+#dp {
+    width: 100%; /* Make the image responsive */
+    max-width: 500px; /* Set a maximum width */
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.aboutme {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.icons {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.iconslist {
+    padding-left: 650px;
+    padding-bottom: 100px;
+}
+.icons i {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #7BD3EA;
+    transition: color 0.3s ease-in-out;
+}
+
+.icons i:hover {
+    color: #FBA834;
+}
+
+
+/* Add media queries for responsive design */
+@media only screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar li {
+        margin: 10px 0;
+    }
+}
+ul {
+    display: inline-block;
+    /* text-align: center;
+    justify-content: center; */
+}
+.section{
+    color: black;
+}
